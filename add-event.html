@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="add-event.html">Add Event</a>
+            <a href="my-registrations.html">My Registrations</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Add New Event</h1>
+
+        <form>
+
+            <label for="event-name">Event Name</label>
+            <input type="text" id="event-name" required>
+
+            <br><br>
+
+            <label for="category">Category</label>
+            <select id="category">
+
+                <option value="">Select Category</option>
+                <option value="Fest">Fest</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Sports">Sports</option>
+                <option value="Club">Club</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="date">Date</label>
+            <input type="date" id="date">
+
+            <br><br>
+
+            <label for="time">Time</label>
+            <input type="time" id="time">
+
+            <br><br>
+
+            <label for="venue">Venue</label>
+            <input type="text" id="venue">
+
+            <br><br>
+
+            <label for="description">Description</label>
+
+            <textarea id="description" rows="5"></textarea>
+
+            <br><br>
+
+            <label for="organiser-name">
+                Organiser Name
+            </label>
+
+            <input type="text" id="organiser-name">
+
+            <br><br>
+
+            <label for="email">
+                Organiser Email
+            </label>
+
+            <input type="email" id="email">
+
+            <br><br>
+
+            <button type="submit">
+                Submit Event
+            </button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>CampusConnect | Developed by Ravi</p>
+    </footer>
+
+</body>
+</html>
