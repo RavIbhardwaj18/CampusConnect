@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Event</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="js/app.js"></script>
+    <title>CampusConnect - Add Event</title>
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -20,70 +20,98 @@
 
     <main>
 
-        <h1>Add New Event</h1>
+        <div class="form-container">
 
-        <form>
+            <h1>Add New Event</h1>
 
-            <label for="event-name">Event Name</label>
-            <input type="text" id="event-name" required>
+            <form>
 
-            <br><br>
+                <div class="form-group">
+                    <label for="event-name">Event Name</label>
+                    <input
+                        type="text"
+                        id="event-name"
+                        placeholder="Enter event name"
+                        required
+                    >
+                </div>
 
-            <label for="category">Category</label>
-            <select id="category">
+                <div class="form-group">
+                    <label for="category">Category</label>
 
-                <option value="">Select Category</option>
-                <option value="Fest">Fest</option>
-                <option value="Workshop">Workshop</option>
-                <option value="Sports">Sports</option>
-                <option value="Club">Club</option>
+                    <select id="category" required>
+                        <option value="">Select Category</option>
+                        <option value="Fest">Fest</option>
+                        <option value="Workshop">Workshop</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Club">Club</option>
+                    </select>
+                </div>
 
-            </select>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" required>
+                </div>
 
-            <br><br>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" required>
+                </div>
 
-            <label for="date">Date</label>
-            <input type="date" id="date">
+                <div class="form-group">
+                    <label for="venue">Venue</label>
+                    <input
+                        type="text"
+                        id="venue"
+                        placeholder="Enter venue"
+                        required
+                    >
+                </div>
 
-            <br><br>
+                <div class="form-group">
+                    <label for="description">Description</label>
 
-            <label for="time">Time</label>
-            <input type="time" id="time">
+                    <textarea
+                        id="description"
+                        rows="5"
+                        placeholder="Enter event description"
+                        required
+                    ></textarea>
+                </div>
 
-            <br><br>
+                <div class="form-group">
+                    <label for="organiser-name">
+                        Organiser Name
+                    </label>
 
-            <label for="venue">Venue</label>
-            <input type="text" id="venue">
+                    <input
+                        type="text"
+                        id="organiser-name"
+                        placeholder="Enter organiser name"
+                        required
+                    >
+                </div>
 
-            <br><br>
+                <div class="form-group">
+                    <label for="email">
+                        Organiser Email
+                    </label>
 
-            <label for="description">Description</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter organiser email"
+                        required
+                    >
+                </div>
 
-            <textarea id="description" rows="5"></textarea>
+                <button type="submit">
+                    Submit Event
+                </button>
 
-            <br><br>
+            </form>
 
-            <label for="organiser-name">
-                Organiser Name
-            </label>
-
-            <input type="text" id="organiser-name">
-
-            <br><br>
-
-            <label for="email">
-                Organiser Email
-            </label>
-
-            <input type="email" id="email">
-
-            <br><br>
-
-            <button type="submit">
-                Submit Event
-            </button>
-
-        </form>
+        </div>
 
     </main>
 

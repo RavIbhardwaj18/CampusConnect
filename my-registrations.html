@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Registrations</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="js/app.js"></script>
+    <title>CampusConnect - My Registrations</title>
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -20,21 +20,35 @@
 
     <main>
 
-        <h1>My Registered Events</h1>
+        <div class="registrations-container">
 
-        <p>
-            You have not registered for any events yet.
-        </p>
+            <h1>My Registered Events</h1>
 
-        <div id="registrations-list">
+            <p class="empty-message">
+                You have not registered for any events yet.
+            </p>
+
+            <div id="registrations-list">
+
+                <article class="event-card">
+
+                    <span class="category-badge">Workshop</span>
+
+                    <h3>AI Workshop</h3>
+
+                    <p>Date: 20 Sept 2025</p>
+
+                    <p>Venue: Lab 3</p>
+
+                </article>
+
+            </div>
+
+            <a href="events.html" class="btn-primary">
+                Browse Events
+            </a>
 
         </div>
-
-        <br>
-
-        <a href="events.html">
-            Browse Events
-        </a>
 
     </main>
 
