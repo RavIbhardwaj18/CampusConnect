@@ -16,6 +16,7 @@
             <a href="events.html">Events</a>
             <a href="add-event.html">Add Event</a>
             <a href="my-registrations.html">My Registrations</a>
+           
         </nav>
     </header>
 
@@ -23,20 +24,25 @@
 
         <div class="detail-container">
 
-            <h1>Tech Fest 2025</h1>
-
-            <span class="category-badge">Fest</span>
-
-            <p><strong>Date:</strong> 15 September 2025</p>
-
+          <h1 id="event-title"></h1>
+            <span
+                class="category-badge"
+                id="event-category"
+            ></span>   
+                <p>
+                    <strong>Date:</strong>
+                    <span id="event-date"></span>
+                </p>
             <p><strong>Time:</strong> 10:00 AM</p>
 
-            <p><strong>Venue:</strong> Main Auditorium</p>
-
+            <p>
+                <strong>Venue:</strong>
+                <span id="event-venue"></span>
+            </p>
             <h2>Description</h2>
 
             <p>
-                Tech Fest 2025 is a two-day event featuring coding
+                Tech Fest 2026 is a two-day event featuring coding
                 competitions, robotics demonstrations, technical talks,
                 project exhibitions, and innovation showcases by students.
             </p>
@@ -47,13 +53,16 @@
 
             <p><strong>Email:</strong> techclub@college.edu</p>
 
-            <p><strong>Contact:</strong> +91 9876543210</p>
+            <p><strong>Contact:</strong> +91 9155676900</p>
 
             <br>
 
-            <a href="#" class="btn-primary">
+           <button
+                id="register-btn"
+                class="btn-primary"
+            >
                 Register for this Event
-            </a>
+                 </button>
 
             <br><br>
 
@@ -65,9 +74,10 @@
 
     </main>
 
-    <footer>
-        <p>CampusConnect | Developed by Ravi</p>
-    </footer>
-
+   <p>
+    © 2026 CampusConnect |
+    Developed by Ravi Ranjan Bhardwaj
+</p>
+     <script src="js/app.js"></script>
 </body>
 </html>
