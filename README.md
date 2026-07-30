@@ -15,6 +15,4 @@ A campus event management platform built using HTML, CSS and JavaScript.
 - CSS3
 - JavaScript
 
-## Weekly Progress
-- Week 1: HTML Structure
-- Week 2: UI Styling
+
