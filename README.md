@@ -1,4 +1,5 @@
 # CampusConnect
+Developed By Ravi Ranjan
 
 A campus event management platform built using HTML, CSS and JavaScript.
 
