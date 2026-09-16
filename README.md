@@ -3,7 +3,7 @@ Developed By Ravi Ranjan
 
 A campus event management platform built using HTML, CSS and JavaScript.
 
-## Features
+# Features
 - Home Page
 - Events Listing
 - Event Details
@@ -11,7 +11,7 @@ A campus event management platform built using HTML, CSS and JavaScript.
 - My Registrations
 - Responsive Design
 
-## Tech Stack
+# Tech Stack
 - HTML5
 - CSS3
 - JavaScript
